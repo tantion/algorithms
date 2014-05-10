@@ -20,10 +20,7 @@ module.exports = function(grunt) {
           specs   : '<%= meta.specs %>',
           helpers : 'spec/**/*.helper.js',
           vendor : [
-            'vendor/jquery*.js',
-            'vendor/lodash*.js',
-            'vendor/backbone*.js',
-            'vendor/marionette*.js'
+            'vendor/jquery*.js'
           ]
         }
       }

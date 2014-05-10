@@ -1,15 +1,6 @@
-# Unit Test boilerplate
+# Algorithms demo
 
-Unit test boilerplate for extensions or components that rely on the files in `vendor/`
-
-```bash
-$ ll vendor 
-total 1008
--rw-r--r--  1  53155 Oct 22 13:58 backbone-0.9.2.js
--rw-r--r--  1 266882 Oct 22 14:05 jquery-1.8.2.js
--rw-r--r--  1 133962 Oct 22 14:03 lodash-0.8.2.js
--rw-r--r--  1  54474 Nov 13 12:53 marionette-1.0.0-beta5.js
-```
+Introduction to Algorithms
 
 ## Getting started
 
