@@ -1,0 +1,27 @@
+{
+  "name": "algorithms-demo",
+  "description": "",
+  "version": "0.0.0",
+  "homepage": "https://github.com/tantion",
+  "author": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tantion/algorithms.git"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "bugs": {
+    "url": "https://github.com/tantion/algorithms/issues"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.0a",
+    "grunt-open": "~0.1.0",
+    "grunt-contrib-jasmine": "latest",
+    "grunt-contrib-jshint": "~0.1.0",
+    "grunt-contrib-watch": "~0.1.4",
+    "grunt-contrib-connect": "~0.1.0"
+  },
+  "dependencies": {}
+}
