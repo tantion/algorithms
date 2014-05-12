@@ -27,8 +27,11 @@ var data = [
     [1, 3, 5, 2, 4, 0]
 ];
 
+var startAt = new Date().getTime();
 data.forEach(function (d) {
     insertionSort(d);
     console.log(d);
 })
+var endAt = new Date().getTime();
+console.log('cost time:', endAt - startAt, 'ms');
 
