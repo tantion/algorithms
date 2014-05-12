@@ -20,7 +20,7 @@ function maxHeapify (data, index) {
         temp = data[index];
         data[index] = data[largest];
         data[largest] = temp;
-        maxHeapify(data, largest);
+        maxHeapify(data, largest); // 因为改变了最大值，需要重新保证该节点保持堆属性
     }
 
 }
